@@ -1,0 +1,16 @@
+/* Write your CSS here */
+li{
+list-style-type: none;
+    
+display: flex;
+margin-right: 20px;
+border-radius: 15px;
+flex-direction: row;
+align-items: center;
+width: 100%;
+}
+.image{
+    height: 100px;
+    padding: 20px;
+
+}

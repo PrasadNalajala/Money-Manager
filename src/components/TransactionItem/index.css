@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.deleteBtn {
+  background-color: transparent;
+  border: 0;
+  height: 30px;
+}
+.dltImg {
+  height: 30px;
+}
+.elements1 {
+  display: flex;
+  padding: 5px;
+  border-radius: 0;
+  margin-right: 0;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  justify-content: space-between;
+}

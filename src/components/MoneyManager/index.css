@@ -1,0 +1,157 @@
+/* Write your CSS here */
+.bg {
+  max-height: 100vh;
+  padding: 40px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+}
+
+.introCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  /* height: 40vh; */
+  padding: 10px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+}
+.formContainer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cbd5e1;
+
+  padding: 30px;
+  border-radius: 10px;
+}
+.inputField {
+  width: 200px;
+  height: 40px;
+}
+.amountCard {
+  background-color: #ecfccb;
+  border-width: 1px;
+  border-color: #84cc16;
+  border-style: solid;
+  width: 460px;
+  display: flex;
+  margin: 5px;
+  border-radius: 15px;
+}
+.text {
+  color: #7e858e;
+  margin-bottom: 15px;
+}
+.btn {
+  background-color: #0b69ff;
+  margin-top: 20px;
+  height: 35px;
+  width: 50px;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.incomeCard {
+  background-color: #cffafe;
+  border-width: 1px;
+  border-color: #06b6d4;
+  width: 460px;
+  display: flex;
+  margin: 15px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.expensesCard {
+  background-color: #ede9fe;
+  border-width: 1px;
+  border-color: #7c3aed;
+  border-style: solid;
+  width: 460px;
+  display: flex;
+  margin: 5px;
+  border-radius: 15px;
+}
+span {
+  color: #0b69ff;
+}
+.span {
+  color: #334155;
+}
+.element {
+  width: 80px;
+}
+.elements {
+  display: flex;
+  padding: 5px;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  justify-content: space-between;
+}
+@media all and (max-width: 576px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .formContainer {
+    width: 100%;
+  }
+  .incomeCard {
+    width: 100%;
+  }
+  .amountCard {
+    width: 100%;
+  }
+  .expensesCard {
+    width: 100%;
+  }
+  li {
+    width: 100%;
+  }
+  .history {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.historyConatine {
+  margin: 0;
+}
+@media all and (min-width: 576px) {
+  .entireForm {
+    display: flex;
+  }
+  .inputField {
+    width: 250px;
+    height: 40px;
+  }
+
+  .history {
+    margin-left: 25px;
+    width: 100%;
+    flex-grow: 1;
+  }
+  .expensesCard {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .incomeCard {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .amountCard {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+.history {
+  border-width: 1px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 30px;
+}
